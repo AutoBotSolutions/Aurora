@@ -26,7 +26,7 @@ Before using **G.O.D.**, ensure you have the following:
 Getting started is as easy as 1-2-3:
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YourUsername/g_o_d.git
+   git clone https://github.com/AutoBotSolutions/Aurora.git
    ```
 2. **Navigate to the Directory:**
    ```bash
