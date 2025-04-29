@@ -1,5 +1,11 @@
 # G.O.D. (Generalized Omni-dimensional Development)
 
+- [Aurora Repository](https://github.com/AutoBotSolutions/Aurora.git)
+- [Auto Bot Solutions Website](https://autobotsolutions.com/)
+- [God Wiki Documentation](https://autobotsolutions.com/god/stats/doku.php)
+- [God Docs](https://autobotsolutions.com/god/templates/index.1.html)
+
+
 ##  Overview
 **G.O.D.** is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
 
