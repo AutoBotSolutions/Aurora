@@ -1,4 +1,5 @@
-[AutoBot Solutions Logo](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)
+![AutoBot Solutions Logo](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)
+
 
 # G.O.D. (Generalized Omni-dimensional Development)
 
