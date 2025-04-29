@@ -1,0 +1,34 @@
+missing_data_strategy:
+  default: "drop"  # Default strategy if none is specified
+  strategies:
+    drop: # Remove rows or columns with missing data
+      description: "Remove rows or columns containing missing values."
+      apply_to: ["rows", "columns"]  # Options: "rows", "columns", or both
+    fill:
+      description: "Fill missing values with a specific value."
+      methods:
+        - name: "mean"
+          description: "Replace missing values with the mean of the column."
+        - name: "median"
+          description: "Replace missing values with the median of the column."
+        - name: "mode"
+          description: "Replace missing values with the mode of the column."
+        - name: "custom"
+          description: "Replace missing values with a custom value."
+          value: null  # Placeholder for the custom value to be defined
+    interpolate:
+      description: "Interpolate missing values using existing data."
+      methods:
+        - name: "linear"
+          description: "Linear interpolation based on index values."
+        - name: "polynomial"
+          description: "Polynomial interpolation of the specified order."
+          order: 2  # Default polynomial order
+    advanced:
+      description: "Advanced strategies like machine learning-based imputation."
+      methods:
+        - name: "KNN"
+          description: "Use K-Nearest Neighbors to predict missing values."
+          neighbors: 5  # Default number of neighbors
+        - name: "regression"
+          description: "Predict missing values using regression models."

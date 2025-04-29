@@ -1,0 +1,65 @@
+site_name: "G.O.D Framework Documentation"    # Name of the documentation site
+site_url: "https://example.com/god-docs"      # URL for the hosted documentation (optional)
+site_description: "Comprehensive guide for the G.O.D Framework." # Meta description of the site
+site_author: "G.O.D Framework Team"           # Author of the documentation
+
+theme:                                        # Theme configuration
+  name: "material"                            # Material design theme
+  palette:                                    # Customize color palette
+    primary: "blue"
+    accent: "orange"
+  font:
+    text: "Roboto"
+    code: "Courier New"
+  logo: "assets/logo.png"                     # Path to the logo file (optional)
+  favicon: "assets/favicon.ico"               # Path to the favicon file (optional)
+
+nav:                                          # Navigation menu and file structure
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting_started/overview.md
+      - Installation: getting_started/installation.md
+      - Quick Start Guide: getting_started/quick_start.md
+  - Modules:
+      - AI Configuration Loader: modules/ai_configuration_loader.md
+      - AI Orchestrator: modules/ai_orchestrator.md
+      - AI Training: modules/ai_training.md
+      - AI Anomaly Detection: modules/ai_anomaly_detection.md
+      - AI Monitoring: modules/ai_monitoring.md
+      - AI Reporting: modules/ai_reporting.md
+  - Configuration: config/configuration_overview.md
+  - FAQ: faq.md
+  - Changelog: changelog.md                  # Changelog for version updates
+  - Credits: credits.md                      # Acknowledgements and team credits
+
+plugins:                                      # List of plugins to extend functionality
+  - search                                    # Adds a search bar to the documentation
+  - mkdocs-material-tags                      # Adds support for tagging in content
+  - mkdocs-git-revision-date-localized-plugin # Adds revision information per page
+  - mkdocs-awesome-pages-plugin               # Enhances page structure through YAML
+  - mkdocstrings                              # Auto-generates API documentation from code docstrings
+
+markdown_extensions:                          # Enable additional Markdown features
+  - admonition                                # Support for note/warning boxes
+  - codehilite                                # Syntax highlighting for code blocks
+  - pymdownx.superfences                      # Syntax highlighting extensions for complex snippets
+  - pymdownx.details                          # Adds collapsible "details" sections
+  - toc                                       # Table of contents support
+  - tables                                    # Support for Markdown tables
+  - footnotes                                 # Enable footnotes in Markdown
+
+extra:                                        # Extra variables for customization
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/example/god-framework
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/example
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/example
+  version: "1.0.0"                           # Documentation version
+
+extra_css:                                    # Additional custom CSS files
+  - css/custom.css
+
+extra_javascript:                             # Additional custom JavaScript files
+  - js/custom.js

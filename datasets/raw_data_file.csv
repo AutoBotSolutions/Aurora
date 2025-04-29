@@ -1,0 +1,11 @@
+id,name,age,gender,income,spending_score,region,last_purchase_date
+1,John Doe,34,Male,55000,85,North,2023-10-15
+2,Jane Smith,28,Female,68000,73,East,2023-10-18
+3,Michael Brown,45,Male,72000,60,West,2023-10-10
+4,Emily Davis,22,Female,47000,95,South,2023-10-20
+5,Chris Wilson,33,Male,51000,80,North,2023-10-12
+6,Sarah Johnson,38,Female,78000,70,East,2023-10-14
+7,David Martinez,29,Male,61000,92,West,2023-10-16
+8,Laura Lee,31,Female,52000,88,South,2023-10-13
+9,Daniel Harris,40,Male,73000,50,North,2023-10-09
+10,Angela White,25,Female,50000,65,East,2023-10-19

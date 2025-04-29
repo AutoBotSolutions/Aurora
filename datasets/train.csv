@@ -1,0 +1,11 @@
+id,name,age,gender,income,city,signup_date,activity_score,purchase_count,is_active
+1,John Doe,34,Male,55000,New York,2023-01-15,82,12,1
+2,Jane Smith,28,Female,68000,San Francisco,2023-02-20,91,18,1
+3,Bob Johnson,45,Male,72000,Los Angeles,2022-11-10,74,10,0
+4,Alice Williams,22,Female,47000,Seattle,2023-05-20,89,3,1
+5,Chris Lee,38,Male,81000,Wichita,2023-03-01,79,8,1
+6,Emma Brown,31,Female,52000,Atlanta,2022-12-18,85,7,0
+7,Michael Davis,37,Male,60000,Dallas,2023-04-14,88,14,1
+8,Olivia Wilson,29,Female,58000,Chicago,2023-06-30,92,11,1
+9,Ethan Miller,50,Male,54000,Boston,2023-01-05,65,5,0
+10,Ava Martinez,26,Female,47000,Sacramento,2023-07-22,95,2,1

@@ -1,0 +1,11 @@
+customer_id,age,income,location,product_purchased,target
+1,34,45000,New York,Yes,1
+2,29,57000,California,No,0
+3,,62000,Florida,Yes,1
+4,45,,Texas,No,0
+5,54,48000,California,No,
+6,31,51000,New York,Yes,1
+7,28,45000,Texas,,0
+8,,43000,California,Yes,1
+9,36,59000,New York,No,0
+10,41,,Florida,No,

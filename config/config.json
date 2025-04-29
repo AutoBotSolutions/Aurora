@@ -1,0 +1,61 @@
+{
+  "deployment": {
+    "environment": "production",
+    "model_path": "/home/tompots/models/model_v1.0.pkl",
+    "deployment_type": "docker",
+    "replicas": 3,
+    "resource_limits": {
+      "cpu": "2",
+      "memory": "4GB"
+    },
+    "logging": {
+      "level": "INFO",
+      "log_file": "logs/deployment.log"
+    },
+    "auto_restart": true
+  },
+  "api_server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "use_ssl": false,
+    "ssl_cert_path": "",
+    "ssl_key_path": ""
+  },
+  "monitoring": {
+    "enabled": true,
+    "interval_in_seconds": 60,
+    "alert_thresholds": {
+      "cpu_usage_percentage": 85,
+      "memory_usage_percentage": 90,
+      "response_time_ms": 200
+    }
+  },
+  "security": {
+    "authentication": {
+      "enabled": true,
+      "strategy": "token",
+      "token_secret": "super_secret_key",
+      "token_expiry_hours": 24
+    },
+    "authorization": {
+      "roles": [
+        {"name": "admin", "permissions": ["all"]},
+        {"name": "user", "permissions": ["read", "write"]}
+      ]
+    }
+  },
+  "pipeline": {
+    "data_ingestion": {
+      "source_type": "s3",
+      "source_path": "s3://data-bucket/raw-data.json",
+      "backup_local_path": "/home/tompots/db/backup/"
+    },
+    "model_training": {
+      "enabled": true,
+      "max_epochs": 100,
+      "batch_size": 32,
+      "optimizer": "adam",
+      "early_stopping": true
+    }
+  }
+}

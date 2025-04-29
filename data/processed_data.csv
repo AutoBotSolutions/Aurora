@@ -1,0 +1,6 @@
+record_id,feature_1,feature_2,processed_label
+1,10.5,5.6,A
+2,12.3,7.4,B
+3,9.8,6.2,A
+4,14.1,8.1,B
+5,11.0,5.9,A

@@ -1,0 +1,68 @@
+2025-04-28 10:14:24,319 - INFO - ErrorHandler initialized successfully.
+2025-04-28 10:14:24,321 - ERROR - Exception occurred: Example exception logging
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 174, in <module>
+    raise ValueError("Example Exception")
+ValueError: Example Exception
+
+2025-04-28 10:14:24,321 - INFO - Attempt 1/3: Testing retry logic with unreliable_function
+2025-04-28 10:14:24,322 - WARNING - Attempt 1 failed: Random failure occurred!
+2025-04-28 10:14:24,322 - ERROR - Exception occurred: Testing retry logic with unreliable_function
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 81, in retry_operation
+    return function()
+           ^^^^^^^^^^
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 150, in unreliable_function
+    raise ValueError("Random failure occurred!")
+ValueError: Random failure occurred!
+
+2025-04-28 10:14:24,323 - INFO - Applying delay through delay_function after attempt 1
+2025-04-28 10:14:25,323 - INFO - Attempt 2/3: Testing retry logic with unreliable_function
+2025-04-28 10:14:25,323 - ERROR - Error occurred: Simulated initial error
+2025-04-28 10:14:25,323 - INFO - Retrying operation using handle_error.
+2025-04-28 10:14:25,323 - INFO - Attempt 1/3: 
+2025-04-28 10:14:25,323 - WARNING - Attempt 1 failed: Random failure occurred!
+2025-04-28 10:14:25,323 - ERROR - Exception occurred: 
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 81, in retry_operation
+    return function()
+           ^^^^^^^^^^
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 150, in unreliable_function
+    raise ValueError("Random failure occurred!")
+ValueError: Random failure occurred!
+
+2025-04-28 10:14:25,323 - INFO - Applying delay through delay_function after attempt 1
+2025-04-28 10:14:26,323 - INFO - Attempt 2/3: 
+2025-04-28 10:14:26,324 - WARNING - Attempt 2 failed: Random failure occurred!
+2025-04-28 10:14:26,324 - ERROR - Exception occurred: 
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 81, in retry_operation
+    return function()
+           ^^^^^^^^^^
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 150, in unreliable_function
+    raise ValueError("Random failure occurred!")
+ValueError: Random failure occurred!
+
+2025-04-28 10:14:26,324 - INFO - Applying delay through delay_function after attempt 2
+2025-04-28 10:14:28,324 - INFO - Attempt 3/3: 
+2025-04-28 10:14:28,324 - WARNING - Attempt 3 failed: Random failure occurred!
+2025-04-28 10:14:28,324 - ERROR - Exception occurred: 
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 81, in retry_operation
+    return function()
+           ^^^^^^^^^^
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 150, in unreliable_function
+    raise ValueError("Random failure occurred!")
+ValueError: Random failure occurred!
+
+2025-04-28 10:14:28,324 - INFO - Applying delay through delay_function after attempt 3
+2025-04-28 10:14:32,325 - ERROR - All 3 attempts failed for operation: 
+2025-04-28 10:14:32,325 - ERROR - Exception occurred: Final retry attempt failed.
+Traceback (most recent call last):
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 114, in handle_error
+    return self.retry_operation(retry_function, retries=retries, delay_function=delay_function)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/private/giganutt/pycharm_projects/g_o_d/error_handler.py", line 92, in retry_operation
+    raise Exception(f"Operation failed after {retries} retries: {context}")
+Exception: Operation failed after 3 retries: 
+

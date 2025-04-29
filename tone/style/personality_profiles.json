@@ -1,0 +1,62 @@
+{
+  "friendly": {
+    "tone": "cheerful",
+    "humor": "light",
+    "empathy": "high"
+  },
+  "professional": {
+    "tone": "formal",
+    "humor": "none",
+    "empathy": "medium"
+  },
+  "neutral": {
+    "tone": "neutral",
+    "humor": "moderate",
+    "empathy": "low"
+  },
+  "disaster_recovery": {
+    "settings": {
+      "description": "Initializes the disaster recovery manager with default or user-defined settings.",
+      "configuration": {
+        "recovery_path": "<recovery_path_placeholder>",
+        "backup_frequency": "<frequency_placeholder>",
+        "notification_enabled": "<boolean_placeholder>"
+      }
+    }
+  },
+  "alerting": {
+    "description": "A system for sending email alerts using SMTP settings.",
+    "configuration": {
+      "server_address": "<server_address_placeholder>",
+      "port": "<port_placeholder>",
+      "sender_email": "<sender_email_placeholder>",
+      "authentication_required": "<boolean_placeholder>"
+    }
+  },
+  "performance_profiler": {
+    "description": "Manages performance profiling through logging.",
+    "logging": {
+      "basicConfig": {
+        "level": "<logging_level_placeholder>",
+        "handlers": ["<handler_placeholder>"],
+        "format": "<format_placeholder>"
+      }
+    }
+  },
+  "orchestrator": {
+    "description": "Manages paths for training data, feedback, and deployment settings.",
+    "configuration": {
+      "training_data_path": "<training_data_path_placeholder>",
+      "feedback_data_path": "<feedback_data_path_placeholder>",
+      "deployment_settings_path": "<deployment_settings_path_placeholder>"
+    }
+  },
+  "reporting": {
+    "description": "Handles configuration for logging during report generation.",
+    "logging": {
+      "level": "<logging_level_placeholder>",
+      "format": "<logging_format_placeholder>",
+      "file_location": "<output_file_placeholder>"
+    }
+  }
+}

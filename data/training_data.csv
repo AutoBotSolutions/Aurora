@@ -1,0 +1,13 @@
+Module,Data Source,Type,Description,Format,Size
+AI Advanced Monitoring,system_logs,Monitoring,Logs for monitoring system performance and health,CVS/JSON,1GB
+AI Advanced Reporting,report_templates,Templates,Templates for automated reporting functionality,CVS/XML,500MB
+AI Alerting,alert_data,Notification,Threshold-trigger events for alerting users,JSON,200MB
+AI Anomaly Detection,sensor_readings,Anomalous Data,Sensor data with labeled anomalies as training data,CSV,2GB
+AI Audit Logger,user_activities,Logging,User activity logs captured for audit purposes,TXT/JSON,1.5GB
+AI Automated Data Pipeline,data_pipelines,Automation,Pipelines for automated data processing,JSON,3GB
+AI Bias Auditor,model_outputs,Bias Check,Labeled data for bias detection in models,CSV,2GB
+AI Clustering,customer_data,Clustering,Category-based data for clustering algorithms,CSV,1GB
+AI Data Validation,validation_dataset,Validation,Dataset for validating AI system outputs,CSV,1.5GB
+AI Reinforcement Learning,simulation_data,Simulation,Data generated from environments for reinforcement learning,JSON,3GB
+AI Emotion Analyzer,text_and_audio,Sentiment Analysis,Labeled emotional data for text/audio,CVS/WAV/MP3,1.8GB
+AI Explainability,imgex_plan Shared-core Or Image Decode-Evaluation"Anal cos graphs

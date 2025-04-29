@@ -1,0 +1,11 @@
+2025-04-28 10:13:49,364 - INFO - ----------------------------------------------------------------------
+2025-04-28 10:13:49,364 - INFO - Starting CI/CD pipeline execution...
+2025-04-28 10:13:49,364 - INFO - ----------------------------------------------------------------------
+2025-04-28 10:13:49,364 - INFO - Step 1: Running unit tests...
+2025-04-28 10:13:49,364 - INFO - Starting unit tests...
+2025-04-28 10:13:49,563 - ERROR - Error during unit testing: [Errno 2] No such file or directory: 'pytest'
+2025-04-28 10:13:49,563 - ERROR - Pipeline execution stopped. Unit tests failed.
+2025-04-28 10:13:49,563 - INFO - Notification: Pipeline failed during the unit testing step.
+2025-04-28 10:13:49,563 - INFO - ----------------------------------------------------------------------
+2025-04-28 10:13:49,563 - INFO - CI/CD pipeline execution completed.
+2025-04-28 10:13:49,564 - INFO - ----------------------------------------------------------------------

@@ -1,0 +1,6 @@
+2025-04-28 07:32:50,810 - INFO - Inference completed: 10 predictions in 100.10 ms (Throughput: 99.90 req/s)
+2025-04-28 07:32:51,010 - INFO - Inference completed: 50 predictions in 200.15 ms (Throughput: 249.81 req/s)
+2025-04-28 07:32:51,310 - INFO - Inference completed: 100 predictions in 300.09 ms (Throughput: 333.23 req/s)
+2025-04-28 07:32:51,311 - WARNING - ALERT: High latency detected! Latency: 300.09 ms
+2025-04-28 07:32:51,711 - INFO - Inference completed: 200 predictions in 400.07 ms (Throughput: 499.92 req/s)
+2025-04-28 07:32:51,711 - WARNING - ALERT: High latency detected! Latency: 400.07 ms
