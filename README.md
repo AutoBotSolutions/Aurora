@@ -1,6 +1,5 @@
 # G.O.D. (Generalized Omni-dimensional Development)
 
-- [Aurora Repository](https://github.com/AutoBotSolutions/Aurora.git)
 - [Auto Bot Solutions Website](https://autobotsolutions.com/)
 - [God Wiki Documentation](https://autobotsolutions.com/god/stats/doku.php)
 - [God Docs](https://autobotsolutions.com/god/templates/index.1.html)
