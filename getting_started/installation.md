@@ -1,5 +1,10 @@
 # Installation Guide
 
+- [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
+- [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
+- [G.o.d Documentation](https://autobotsolutions.com/god/templates/index.1.html)
+
+
 Follow the steps below to set up and start using the project.
 
 ---
