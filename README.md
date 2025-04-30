@@ -8,8 +8,6 @@
 ##  Overview
 **G.O.D.** is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
 
-[![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
-
 ---
 
 ##  Key Features
@@ -69,4 +67,4 @@ pytest tests/
 
 ---
 
-
+[![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
