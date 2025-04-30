@@ -70,4 +70,5 @@ pytest tests/
 ## 📚 Folder Structure
 Here’s a quick overview of the project structure:
 
-![AutoBot Solutions Logo](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)
+[![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
+
