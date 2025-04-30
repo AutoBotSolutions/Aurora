@@ -1,5 +1,10 @@
 # Contributor Code of Conduct
 
+- [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
+- [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
+- [G.o.d Documentation](https://autobotsolutions.com/god/templates/index.1.html)
+
+
 ## Our Pledge
 
 We as members, contributors, and maintainers pledge to make participation in the **G.O.D. (Generalized Omni-dimensional Development)** community a harassment-free experience for everyone, regardless of:
