@@ -2,6 +2,11 @@
 
 Thank you for your interest in contributing to the **G.O.D.** framework! Contributions from developers, researchers, and users of all skill levels are highly valued. Whether it's proposing new features, reporting bugs, improving documentation, or contributing code, you can help make **G.O.D.** better for everyone.
 
+- [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
+- [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
+- [G.o.d Documentation](https://autobotsolutions.com/god/templates/index.1.html)
+
+
 ---
 
 ##  How to Contribute
