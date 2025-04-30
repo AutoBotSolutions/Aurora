@@ -1,5 +1,10 @@
 # G.O.D. (Generalized Omni-dimensional Development)
 
+- [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
+- [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
+- [G.o.d Documentation](https://autobotsolutions.com/god/templates/index.1.html)
+
+
 ##  Overview
 **G.O.D.** is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
 
