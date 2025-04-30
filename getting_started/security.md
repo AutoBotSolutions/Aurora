@@ -21,7 +21,7 @@ If you are running an older version of the framework, we strongly encourage you 
 If you discover a potential security issue, we encourage you to report it to us following these guidelines:
 
 1. **Contact Us Directly**  
-   Please email your report to `youremail@example.com` with the subject line: "Security Vulnerability Report: [Insert Brief Description]".  
+   Please email your report to `support@autobotsolutions.com` with the subject line: "Security Vulnerability Report: [Insert Brief Description]".  
    Provide as much detail as you can, including:
     - Affected versions (if applicable).
     - Steps or code to reproduce the vulnerability.
