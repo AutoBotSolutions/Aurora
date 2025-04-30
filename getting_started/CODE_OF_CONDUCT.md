@@ -118,10 +118,10 @@ Your privacy and anonymity will be respected to the fullest extent. If needed, w
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://autobotsolutions.com/), version 2.1, and supplemented with original content specific to the **G.O.D. Framework** community.
+This Code of Conduct is adapted from the [Contributor Covenant]([https://autobotsolutions.com/](https://www.contributor-covenant.org/)), version 2.1, and supplemented with original content specific to the **G.O.D. Framework** community.
 
 For more information about the Contributor Covenant, see:
-[https://www.contributor-covenant.org/](https://autobotsolutions.com/)
+[https://www.contributor-covenant.org/]([https://autobotsolutions.com/](https://www.contributor-covenant.org/))
 
 ---
 
