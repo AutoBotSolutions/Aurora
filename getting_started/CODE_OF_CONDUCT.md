@@ -72,7 +72,7 @@ Project maintainers are responsible for enforcing these standards, both in the c
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported directly to the project team at:  
-**`youremail@example.com`**
+**`support@autobotsolutions.com`**
 
 ### Steps We Will Take:
 1. **Acknowledge Receipt**
