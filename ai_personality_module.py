@@ -1,4 +1,13 @@
 """
+Home: https://autobotsolutions.com
+Wiki: https://autobotsolutions.com/god/stats/doku.php?id=start
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
+"""
 AI Personality Module
 
 The AI Personality Module enables developers to customize the behavior, tone, and enthusiasm of AI responses. It is designed for conversational AI systems, chatbots, and customer interaction tools, where tailored personality traits enhance user experience and engagement.
