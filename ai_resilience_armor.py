@@ -1,4 +1,13 @@
 """
+Home: https://autobotsolutions.com
+Wiki: https://autobotsolutions.com/god/stats/doku.php?id=start
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
+"""
 ai_resilience_armor.py
 
 AI Resilience Armor is an open-source framework for fault tolerance and recovery. It empowers AI systems
