@@ -1,4 +1,13 @@
 """
+Home: https://autobotsolutions.com
+Wiki: https://autobotsolutions.com/god/stats/doku.php?id=start
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
+"""
 ai_real_time_learner.py
 
 A script for dynamic, real-time incremental learning in Python. Part of the G.O.D. Framework, the script enables machine
