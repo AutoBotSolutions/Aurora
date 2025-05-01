@@ -1,4 +1,13 @@
 """
+Home: https://autobotsolutions.com
+Wiki: https://autobotsolutions.com/god/stats/doku.php?id=start
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
+"""
 Performance Profiler
 
 The Performance Profiler is an essential tool for analyzing, profiling, and optimizing pipeline performance in AI workflows. It provides execution time tracking for pipeline stages, result caching for computational efficiency, and detailed logging for auditing and debugging purposes.
