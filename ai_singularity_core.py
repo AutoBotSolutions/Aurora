@@ -12,10 +12,10 @@ and dynamic processes in AI systems.
 This module is ready for open-source contributions and serves as both a foundation for
 generative concepts and a reference for system design principles.
 
-Project Homepage: https://github.com/<your_repo_path_here>    # Replace with repo URL
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
 License: MIT (or choose your open-source license)
 Maintainer: G.O.D Framework Team
-Contact: support@example.com                                 # Replace with team contact
+Contact: support@autobotsolutions.com                       
 ===================================================================================
 """
 
