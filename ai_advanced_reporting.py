@@ -1,6 +1,7 @@
 """
+Home: https://autobotsolutions.com
 Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
-License: MIT (or choose your open-source license)
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
 Maintainer: G.O.D Framework Team
 Contact: support@autobotsolutions.com   
 """
