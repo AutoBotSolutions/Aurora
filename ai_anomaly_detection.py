@@ -1,3 +1,10 @@
+"""
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT (or choose your open-source license)
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
 import logging
 from typing import List
 
