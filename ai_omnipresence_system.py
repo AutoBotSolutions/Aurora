@@ -1,4 +1,13 @@
 """
+Home: https://autobotsolutions.com
+Wiki: https://autobotsolutions.com/god/stats/doku.php?id=start
+Project Homepage: https://github.com/AutoBotSolutions/Aurora.git
+License: MIT https://autobotsolutions.com/god/docs/LICENSE
+Maintainer: G.O.D Framework Team
+Contact: support@autobotsolutions.com   
+"""
+
+"""
 AI Omnipresence System
 
 A lightweight, extensible framework for enabling AI-driven global communication and monitoring. This module allows AI systems 
