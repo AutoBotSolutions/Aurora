@@ -2,7 +2,6 @@
 
 - [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
-- [G.o.d Documentation](https://autobotsolutions.com/god/templates/index.1.html)
 
 [![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
 
