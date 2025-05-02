@@ -67,4 +67,4 @@ pytest tests/
 
 ---
 
-
+[![Aurora](https://autobotsolutions.com/wp-content/uploads/2025/05/f953c9be-77cd-46d7-b85b-a80525cb475b.png)](https://autobotsolutions.com)
