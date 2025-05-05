@@ -1,5 +1,5 @@
 # G.O.D. (Generalized Omni-dimensional Development)
-<a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 - [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
 
@@ -8,7 +8,7 @@
 
 ##  Overview
 **G.O.D.** is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
-
+<a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 ---
 
 ##  Key Features
