@@ -1,8 +1,8 @@
 # G.O.D. (Generalized Omni-dimensional Development)
-
+<a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 - [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
-<a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 [![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
 [![Aurora](https://autobotsolutions.com/wp-content/uploads/2025/05/f953c9be-77cd-46d7-b85b-a80525cb475b.png)](https://autobotsolutions.com)
 
