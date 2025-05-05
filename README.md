@@ -1,4 +1,4 @@
-# G.O.D. (Generalized Omni-dimensional Development)
+G.O.D. (Generalized Omni-dimensional Development)
 
 - [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
@@ -6,39 +6,39 @@
 [![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
 [![Aurora](https://autobotsolutions.com/wp-content/uploads/2025/05/f953c9be-77cd-46d7-b85b-a80525cb475b.png)](https://autobotsolutions.com)
 
-##  Overview
-**G.O.D.** is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
+  Overview
+G.O.D. is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
 <hr />
 <a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 <hr />
-##  Key Features
-- **Advanced Anomaly Detection:** Leverage AI to identify outliers and irregularities for robust data quality control.
-- **Automated Data Pipelines:** Streamline the entire data lifecycle with configurable and reusable pipelines for ingestion, preprocessing, and transformation.
-- **Dynamic Clustering and AI Model Management:** Gain insights into your data through clustering algorithms and maintain optimal AI model performance.
-- **Framework for Universal AI Integration:** Modular design enables easy integration of AI tasks across diverse domains and applications.
-- **Robust Testing & Monitoring:** Ensure system reliability and scalability with built-in tests, live monitoring, and performance metrics.
+  Key Features
+- Advanced Anomaly Detection: Leverage AI to identify outliers and irregularities for robust data quality control.
+- Automated Data Pipelines: Streamline the entire data lifecycle with configurable and reusable pipelines for ingestion, preprocessing, and transformation.
+- Dynamic Clustering and AI Model Management: Gain insights into your data through clustering algorithms and maintain optimal AI model performance.
+- Framework for Universal AI Integration: Modular design enables easy integration of AI tasks across diverse domains and applications.
+- Robust Testing & Monitoring: Ensure system reliability and scalability with built-in tests, live monitoring, and performance metrics.
 
----
+<hr />
 
-## 🛠️ Getting Started
+ 🛠️ Getting Started
 
-### 📋 Prerequisites
-Before using **G.O.D.**, ensure you have the following:
-- **Python** 3.8 or higher.
+ 📋 Prerequisites
+Before using G.O.D., ensure you have the following:
+- Python 3.8 or higher.
 - A virtual environment manager (`venv`, `conda`, etc.).
 - Required dependencies listed in `requirements.txt`.
 
-### 📥 Installation
+ 📥 Installation
 Getting started is as easy as 1-2-3:
-1. **Clone the Repository:**
+1. Clone the Repository:
    ```bash
    git clone https://github.com/AutoBotSolutions/Aurora.git
    ```
-2. **Navigate to the Directory:**
+2. Navigate to the Directory:
    ```bash
    cd g_o_d
    ```
-3. **Set Up the Environment:**
+3. Set Up the Environment:
    Create and activate a virtual environment:
    ```bash
    python3 -m venv .venv
@@ -50,17 +50,17 @@ Getting started is as easy as 1-2-3:
    pip install -r requirements.txt
    ```
 
----
 
-### ▶️ Running the Project
+
+ ▶️ Running the Project
 To execute the main application, simply run:
 ```bash
 python main.py
 ```
 
----
 
-### 🧪 Testing
+
+Testing
 Ensure your framework is functioning as expected by running the test suite:
 ```bash
 pytest tests/
