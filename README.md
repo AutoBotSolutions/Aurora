@@ -2,7 +2,6 @@ G.O.D. (Generalized Omni-dimensional Development)
 
 - [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/god/stats/doku.php)
-Follow me on LinkedIn: www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=autobotsolutions
 [![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
 [![Aurora](https://autobotsolutions.com/wp-content/uploads/2025/05/f953c9be-77cd-46d7-b85b-a80525cb475b.png)](https://autobotsolutions.com)
 
