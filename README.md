@@ -8,7 +8,7 @@ G.O.D. (Generalized Omni-dimensional Development)
   Overview
 G.O.D. is a versatile and scalable AI framework, seamlessly blending advanced functionalities to tackle complex challenges in anomaly detection, automated data pipelines, clustering, AI model lifecycle management, and more. Designed with cutting-edge principles, G.O.D. empowers developers to create reliable, efficient, and innovative AI solutions. Whether you're a researcher, developer, or engineer, G.O.D. offers unparalleled flexibility to turn ambitious AI concepts into reality.
 <hr />
-<a href="https://www.buymeacoffee.com/tompots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tompots&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 <hr />
   Key Features
 - Advanced Anomaly Detection: Leverage AI to identify outliers and irregularities for robust data quality control.
