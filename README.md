@@ -1,6 +1,6 @@
 G.O.D. (Generalized Omni-dimensional Development)
 
-- [Auto Bot Solutions Website](https://autobotsolutions.com/blog)
+- [Aurora YouTube Videos Tutorials ](https://www.youtube.com/@autobotsolutions)
 - [G.o.d Advanced Wiki](https://autobotsolutions.com/aurora/wiki/doku.php?id=start)
 - 
 [![Auto Bot Solutions](https://autobotsolutions.com/wp-content/uploads/2024/02/autobotsolutions_logo.png)](https://autobotsolutions.com)
