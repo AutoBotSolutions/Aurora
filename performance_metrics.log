@@ -1,0 +1,3 @@
+2025-04-28 08:37:38,701 [INFO]: Performance Profiler initialized.
+2025-04-28 08:37:38,701 [INFO]: Starting stage: 'Sample Task Execution'
+2025-04-28 08:37:40,701 [INFO]: Stage 'Sample Task Execution' completed in 2.00 seconds.

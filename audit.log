@@ -1,0 +1,10 @@
+2025-04-27 21:50:37,476 - AuditLogger - INFO - 2025-04-27 21:50:37 | System Initialization | STATUS: SUCCESS | DETAILS: {'config_file': 'settings.yml'}
+2025-04-27 21:50:37,476 - AuditLogger - INFO - 2025-04-27 21:50:37 | Data Ingestion | STATUS: SUCCESS | DETAILS: {'rows_loaded': 5000}
+2025-04-27 21:50:37,477 - AuditLogger - WARNING - 2025-04-27 21:50:37 | Data Validation | STATUS: WARNING | DETAILS: {'validation_errors': 3}
+2025-04-27 21:50:37,477 - AuditLogger - INFO - 2025-04-27 21:50:37 | Model Training Step 2 | STATUS: SUCCESS | DETAILS: {'training_time': '35m'}
+2025-04-27 21:50:37,477 - AuditLogger - ERROR - 2025-04-27 21:50:37 | Model Inference Failed | STATUS: FAILURE | DETAILS: {'error': 'Out of memory'}
+2025-04-27 22:06:54,080 - AuditLogger - INFO - 2025-04-27 22:06:54 | System Initialization | STATUS: SUCCESS | DETAILS: {'config_file': 'settings.yml'}
+2025-04-27 22:06:54,081 - AuditLogger - INFO - 2025-04-27 22:06:54 | Data Ingestion | STATUS: SUCCESS | DETAILS: {'rows_loaded': 5000}
+2025-04-27 22:06:54,081 - AuditLogger - WARNING - 2025-04-27 22:06:54 | Data Validation | STATUS: WARNING | DETAILS: {'validation_errors': 3}
+2025-04-27 22:06:54,081 - AuditLogger - INFO - 2025-04-27 22:06:54 | Model Training Step 2 | STATUS: SUCCESS | DETAILS: {'training_time': '35m'}
+2025-04-27 22:06:54,081 - AuditLogger - ERROR - 2025-04-27 22:06:54 | Model Inference Failed | STATUS: FAILURE | DETAILS: {'error': 'Out of memory'}

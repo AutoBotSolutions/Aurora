@@ -1,0 +1,13 @@
+2025-04-28 10:14:41,638 - INFO - Starting experiment: ExampleExperiment
+2025-04-28 10:14:41,638 - INFO - Metadata: {'author': 'OpenSourceContributor'}
+2025-04-28 10:14:41,638 - INFO - Running trial 1 out of 5
+2025-04-28 10:14:41,638 - INFO - Trial 1 result: 43
+2025-04-28 10:14:41,638 - INFO - Running trial 2 out of 5
+2025-04-28 10:14:41,638 - INFO - Trial 2 result: 38
+2025-04-28 10:14:41,638 - INFO - Running trial 3 out of 5
+2025-04-28 10:14:41,638 - INFO - Trial 3 result: 43
+2025-04-28 10:14:41,638 - INFO - Running trial 4 out of 5
+2025-04-28 10:14:41,638 - INFO - Trial 4 result: 73
+2025-04-28 10:14:41,638 - INFO - Running trial 5 out of 5
+2025-04-28 10:14:41,638 - INFO - Trial 5 result: 71
+2025-04-28 10:14:41,638 - INFO - Experiment ExampleExperiment completed in 0:00:00.000474

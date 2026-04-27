@@ -1,0 +1,63 @@
+{
+  "connection_name": "Dimensional Gateway",
+  "dimensions": [
+    {
+      "id": "alpha_dimension",
+      "name": "Alpha",
+      "description": "Primary dimension enabling core functions of AI systems.",
+      "attributes": {
+        "frequency": "high",
+        "stability": "stable",
+        "energy_source": "solar"
+      },
+      "entry_point": {
+        "coordinates": {
+          "x": 100,
+          "y": 200,
+          "z": 300
+        }
+      }
+    },
+    {
+      "id": "beta_dimension",
+      "name": "Beta",
+      "description": "Experimental dimension for testing and scalability.",
+      "attributes": {
+        "frequency": "low",
+        "stability": "experimental",
+        "energy_source": "quantum_flux"
+      },
+      "entry_point": {
+        "coordinates": {
+          "x": -50,
+          "y": 75,
+          "z": 125
+        }
+      }
+    }
+  ],
+  "transit_rules": {
+    "alpha_to_beta": {
+      "enabled": true,
+      "cost": "medium",
+      "conditions": [
+        "energy_level > 50%",
+        "gateway_stable"
+      ]
+    },
+    "beta_to_alpha": {
+      "enabled": false,
+      "cost": "high",
+      "conditions": [
+        "authorization_required",
+        "gateway_stable"
+      ]
+    }
+  },
+  "metadata": {
+    "description": "Configuration file for dimensional connections in the G.O.D Framework.",
+    "version": "1.0.0",
+    "maintainer": "G.O.D DevOps Team",
+    "last_updated": "2023-11-01"
+  }
+}

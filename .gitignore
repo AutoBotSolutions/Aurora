@@ -1,0 +1,38 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Logs and output files
+
+# Cache and temporary files
+*.cache/
+*.bak/
+*.swp
+*.tmp
+*.~*
+.DS_Store
+thumbs.db
+
+# Documentation and reports
+
+
+# Data and checkpoints
+
+
+# Config and explanation files
+
+
+# Templates and testing
+templates/
+tests/
+posts/
+versions/
+wiki/
+
+# Image files and assets

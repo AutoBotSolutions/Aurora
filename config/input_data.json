@@ -1,0 +1,57 @@
+{
+  "dataset": {
+    "training_data": {
+      "file_path": "data/training_data.csv",
+      "format": "csv",
+      "schema": {
+        "columns": [
+          {"name": "id", "type": "integer"},
+          {"name": "feature1", "type": "float"},
+          {"name": "feature2", "type": "float"},
+          {"name": "target", "type": "boolean"}
+        ],
+        "primary_key": "id",
+        "metadata": {
+          "description": "Basic dataset for training models.",
+          "author": "G.O.D Framework Team"
+        }
+      }
+    },
+    "validation_data": {
+      "file_path": "data/validation_data.csv",
+      "format": "csv",
+      "schema": {
+        "columns": [
+          {"name": "id", "type": "integer"},
+          {"name": "feature1", "type": "float"},
+          {"name": "feature2", "type": "float"},
+          {"name": "target", "type": "boolean"}
+        ],
+        "primary_key": "id"
+      }
+    }
+  },
+  "preprocessing": {
+    "remove_duplicates": true,
+    "handle_missing_values": "mean",
+    "scaling": {
+      "method": "standardization",
+      "columns": ["feature1", "feature2"]
+    },
+    "categorical_encoding": "one_hot"
+  },
+  "pipeline": {
+    "batch_size": 128,
+    "shuffle_data": true,
+    "split_ratios": {
+      "train": 0.8,
+      "test": 0.2
+    }
+  },
+  "metadata": {
+    "description": "Configuration for input training data and preprocessing pipeline.",
+    "version": "1.0.0",
+    "author": "G.O.D Framework Team",
+    "date_created": "2023-11-01"
+  }
+}

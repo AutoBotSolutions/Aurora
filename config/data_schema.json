@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Data Schema for G.O.D Framework",
+  "description": "Schema for validating input data used by the G.O.D Framework.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique identifier for the data entry."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp for when the data was collected or generated."
+    },
+    "features": {
+      "type": "object",
+      "properties": {
+        "feature1": {
+          "type": "float",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Normalized value for feature 1."
+        },
+        "feature2": {
+          "type": "float",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Normalized value for feature 2."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["A", "B", "C"],
+          "description": "Categorical feature representing one of the accepted categories."
+        }
+      },
+      "required": ["feature1", "feature2", "category"]
+    },
+    "labels": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": "boolean",
+          "description": "Target variable indicating the desired outcome."
+        },
+        "confidence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Certainty percentage for the target prediction."
+        }
+      },
+      "required": ["target"]
+    }
+  },
+  "required": ["id", "timestamp", "features", "labels"],
+  "additionalProperties": false
+}

@@ -1,0 +1,6 @@
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287035", "event_name": "Data Ingestion started", "status": "INFO", "details": {"source": "database"}}
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287252", "event_name": "Data Ingestion completed", "status": "INFO", "details": {"rows": 3}}
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287332", "event_name": "Drift Monitoring initiated", "status": "INFO", "details": {}}
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287413", "event_name": "No Drift Detected", "status": "INFO", "details": {}}
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287448", "event_name": "Model Training started", "status": "INFO", "details": {}}
+2025-04-28 08:38:35,287 - INFO - {"timestamp": "2025-04-28T12:38:35.287479", "event_name": "Model Training completed", "status": "INFO", "details": {"accuracy": 0.95, "loss": 0.05}}

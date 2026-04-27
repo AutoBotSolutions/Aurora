@@ -1,0 +1,8 @@
+{
+  "data_path": "data/customer_data.csv",
+  "model_params": {
+    "learning_rate": 0.01,
+    "num_epochs": 10
+  },
+  "log_level": "INFO"
+}

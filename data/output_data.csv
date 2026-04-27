@@ -1,0 +1,6 @@
+record_id,result,confidence
+001,positive,0.98
+002,negative,0.75
+003,neutral,0.52
+004,positive,0.89
+005,negative,0.67

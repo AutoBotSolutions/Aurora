@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "name": "training_data",
+      "path": "data/training_data.csv",
+      "schema": {
+        "fields": [
+          {"name": "id", "type": "integer"},
+          {"name": "input", "type": "string"},
+          {"name": "label", "type": "string"}
+        ]
+      },
+      "description": "Dataset used for training machine learning models"
+    },
+    {
+      "name": "testing_data",
+      "path": "data/testing_data.csv",
+      "schema": {
+        "fields": [
+          {"name": "id", "type": "integer"},
+          {"name": "input", "type": "string"},
+          {"name": "label", "type": "string"}
+        ]
+      },
+      "description": "Dataset used for testing and evaluation"
+    }
+  ],
+  "settings": {
+    "default_storage_path": "/run/media/private/tompots/pycharm_projects/g_o_d/data",
+    "backup_path": "/run/media/private/tompots/pycharm_projects/g_o_d/data/backup",
+    "default_format": "csv"
+  }
+}

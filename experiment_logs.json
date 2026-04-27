@@ -1,0 +1,20 @@
+{
+    "config": {
+        "name": "ExampleExperiment",
+        "trials": 5,
+        "metadata": {
+            "author": "OpenSourceContributor"
+        }
+    },
+    "results": [
+        43,
+        38,
+        43,
+        73,
+        71
+    ],
+    "metadata": {
+        "timestamp": "2025-04-28T10:14:41.638511",
+        "experiment_id": "ff4cd6f1-f5f4-4141-a93d-a35864e538af"
+    }
+}

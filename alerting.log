@@ -1,0 +1,6 @@
+2025-04-27 21:51:39,374 - INFO - Starting pipeline execution...
+2025-04-27 21:51:39,374 - ERROR - Pipeline error detected: Simulated pipeline failure for testing alert email.
+2025-04-27 21:51:41,743 - ERROR - Failed to send email alert: Connection unexpectedly closed
+2025-04-27 22:06:21,876 - INFO - Starting pipeline execution...
+2025-04-27 22:06:21,876 - ERROR - Pipeline error detected: Simulated pipeline failure for testing alert email.
+2025-04-27 22:06:24,252 - ERROR - Failed to send email alert: Connection unexpectedly closed

@@ -1,0 +1,16 @@
+{
+    "customer_data": {
+        "metadata": {
+            "source": "internal SQL database",
+            "size": "1.2 GB",
+            "format": "Parquet",
+            "last_updated": "2023-11-01",
+            "schema": {
+                "id": "int",
+                "name": "string",
+                "email": "string"
+            }
+        },
+        "date_added": "2025-04-27T22:33:38.634256"
+    }
+}

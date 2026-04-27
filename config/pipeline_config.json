@@ -1,0 +1,73 @@
+{
+  "pipeline_name": "god_ai_pipeline",
+  "stages": [
+    {
+      "name": "data_ingestion",
+      "enabled": true,
+      "config": {
+        "source_path": "data/input/",
+        "format": "csv",
+        "batch_size": 100
+      }
+    },
+    {
+      "name": "data_validation",
+      "enabled": true,
+      "config": {
+        "schema_path": "config/data_schema.json",
+        "strict_mode": true
+      }
+    },
+    {
+      "name": "data_preprocessing",
+      "enabled": true,
+      "config": {
+        "missing_values_strategy": "mean_imputation",
+        "categorical_encoding": "one_hot",
+        "scaling_method": "standardization"
+      }
+    },
+    {
+      "name": "model_training",
+      "enabled": true,
+      "config": {
+        "algorithm": "random_forest",
+        "hyperparameters": {
+          "n_estimators": 100,
+          "max_depth": 10,
+          "random_state": 42
+        },
+        "training_data_path": "data/training_data.csv",
+        "validation_data_path": "data/validation_data.csv"
+      }
+    },
+    {
+      "name": "model_evaluation",
+      "enabled": true,
+      "config": {
+        "metrics": ["accuracy", "precision", "recall", "f1_score"],
+        "evaluation_data_path": "data/testing_data.csv"
+      }
+    },
+    {
+      "name": "deployment",
+      "enabled": true,
+      "config": {
+        "deployment_type": "rest_api",
+        "host": "0.0.0.0",
+        "port": 8080
+      }
+    }
+  ],
+  "global_settings": {
+    "logging": {
+      "level": "INFO",
+      "filePath": "logs/pipeline.log"
+    },
+    "batch_processing": {
+      "max_concurrent_jobs": 5,
+      "retry_count": 3,
+      "timeout_seconds": 600
+    }
+  }
+}

@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-pipeline
+  labels:
+    app: ai-pipeline
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ai-pipeline
+  template:
+    metadata:
+      labels:
+        app: ai-pipeline
+    spec:
+      containers:
+        - name: ai-pipeline
+          image: ai-pipeline:v1
+          ports:
+            - containerPort: 8080
+          env:
+            - name: DATABASE_PATH
+              value: "/home/tompots/db/database.db"
+            - name: LOG_LEVEL
+              value: "INFO"
+            - name: MONITORING_INTERVAL_SECONDS
+              value: "60"
+            - name: API_KEY
+              value: "internal_api_key"
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "500m"
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-pipeline-service
+  labels:
+    app: ai-pipeline
+spec:
+  selector:
+    app: ai-pipeline
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
